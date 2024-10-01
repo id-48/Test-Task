@@ -42,8 +42,8 @@ class AppColors {
   static const Color indyBlue = Color(0xFF414361);
   static const Color spaceCadet = Color(0xFF2a2d43);
 }
-
 const Color primaryColor = Color(0xFFFF5032);
 const Color kColorBlack = Colors.black;
 const Color kColorWhite = Colors.white;
 const Color kColorGrey = Colors.grey;
+const Color spaceLight = Color(0xff2b3a67);

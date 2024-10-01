@@ -7,9 +7,8 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 
 void main() async {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
-
 
 class MyApp extends StatefulWidget {
   const MyApp({super.key});
@@ -30,9 +29,7 @@ class _MyAppState extends State<MyApp> {
       title: "Find Me",
       theme: Themes.light,
       darkTheme: Themes.light,
-      // themeMode: ThemeService().theme,
       initialBinding: SplashBinding(),
-      // home: const SplashScreen(),
       getPages: AppPages.pages,
       initialRoute: AppRoutes.splash,
       navigatorKey: Get.key,

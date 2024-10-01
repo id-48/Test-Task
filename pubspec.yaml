@@ -38,14 +38,15 @@ dependencies:
   get: ^4.6.6
   http:
   intl: ^0.18.1
-  shared_preferences: ^2.2.1
   #  flutter_zoom_drawer: ^3.1.1
   #  google_fonts: ^6.0.0
   google_fonts: ^5.0.0
   flutter_svg: ^2.0.9
   cached_network_image: ^3.2.3
   image_picker: ^1.0.4
-
+  carousel_slider: ^5.0.0
+  flutter_animate: ^4.5.0
+  bubble: ^1.2.1
 dev_dependencies:
   flutter_test:
     sdk: flutter

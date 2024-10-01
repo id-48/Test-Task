@@ -1,4 +1,5 @@
 import 'dart:async';
+
 import 'package:demo_ui/routes/app_routes.dart';
 import 'package:demo_ui/screens/splash/splash_api_provider.dart';
 import 'package:get/get_core/src/get_main.dart';
@@ -15,10 +16,8 @@ class SplashController extends GetxController {
   }
 
   onWaitAfterRoute() {
-    Timer(const Duration(seconds: 2), () {
+    Timer(const Duration(seconds: 3), () {
       Get.offAndToNamed(AppRoutes.home);
     });
   }
-
 }
-

@@ -1,3 +1,5 @@
+import 'package:demo_ui/screens/chat/chat_binding.dart';
+import 'package:demo_ui/screens/chat/chat_screen.dart';
 import 'package:demo_ui/screens/item_details/item_details_binding.dart';
 import 'package:demo_ui/screens/item_details/item_details_screen.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
@@ -15,7 +17,6 @@ class AppPages {
       page: () => const SplashScreen(),
       binding: SplashBinding(),
     ),
-
     GetPage(
       name: AppRoutes.home,
       page: () => const HomeScreen(),
@@ -26,6 +27,10 @@ class AppPages {
       page: () => const ItemDetailsScreen(),
       binding: ItemDetailsBindings(),
     ),
-
+    GetPage(
+      name: AppRoutes.chat,
+      page: () => const ChatScreen(),
+      binding: ChatBinding(),
+    ),
   ];
 }
