@@ -4,13 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I enhanced the user experience using Flutter animations, adding smooth transitions and effects
+throughout the app. For state management, I used GetX, which made the app efficient and reactive.
+The MVC structure was followed for better separation of concerns, ensuring modular and scalable
+code. Icons and assets were placeholders, but I aimed to deliver a polished, professional design.
